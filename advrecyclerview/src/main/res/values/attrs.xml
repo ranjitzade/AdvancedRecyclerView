@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStateRecyclerView">
+        <!--attrs specially for MultiStateView-->
+        <attr name="msr_loadingView" format="reference" />
+        <attr name="msr_emptyView" format="reference" />
+        <attr name="msr_errorView" format="reference" />
+        <attr name="msr_viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="error" value="1" />
+            <enum name="empty" value="2" />
+            <enum name="loading" value="3" />
+        </attr>
+        <attr name="msr_animateViewChanges" format="boolean" />
+        <attr name="msr_swiperefreshenabled" format="boolean" />
+
+    </declare-styleable>
+</resources>
